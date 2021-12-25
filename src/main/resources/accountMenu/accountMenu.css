@@ -1,0 +1,26 @@
+.root {
+    -fx-background-image: url(../images/register.PNG);
+    -fx-background-size: contain;
+}
+
+Button {
+    -fx-border-color: black;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 20px;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+}
+
+Label {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 25px;
+    -fx-text-fill: white;
+}
+
+#changePassLabel {
+ -fx-font-size: 20px;
+}
+
+#error {
+    -fx-font-size: 17px;
+}

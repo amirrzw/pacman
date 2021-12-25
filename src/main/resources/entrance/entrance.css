@@ -1,0 +1,12 @@
+.root {
+    -fx-background-image: url(../images/registermenu.jpg);
+    -fx-background-size: contain;
+}
+
+Button {
+    -fx-border-color: black;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 20px;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+}

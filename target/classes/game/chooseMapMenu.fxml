@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+
+<AnchorPane fx:id="background" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.game.ChooseMapMenuView">
+    <stylesheets>
+        <URL value="@chooseMap.css" />
+    </stylesheets>
+   <children>
+      <GridPane fx:id="gridPane" layoutX="68.0" layoutY="67.0" prefHeight="595.0" prefWidth="736.0">
+      </GridPane>
+      <Button fx:id="backButton" layoutX="785.0" layoutY="507.0" mnemonicParsing="false" onMouseClicked="#backClicked" prefHeight="55.0" prefWidth="192.0" styleClass="mapButton" text="Back" />
+      <Button fx:id="generateRandomButton" layoutX="785.0" layoutY="332.0" mnemonicParsing="false" onMouseClicked="#generateRandomMapClicked" prefHeight="55.0" prefWidth="192.0" styleClass="mapButton" text="Generate random" />
+      <Button fx:id="nextMapButton" layoutX="785.0" layoutY="245.0" mnemonicParsing="false" onMouseClicked="#nextMapClicked" prefHeight="55.0" prefWidth="192.0" styleClass="mapButton" text="Next map" />
+      <Button fx:id="selectButton" layoutX="785.0" layoutY="158.0" mnemonicParsing="false" onMouseClicked="#selectClicked" prefHeight="55.0" prefWidth="192.0" styleClass="mapButton" text="Select" />
+      <Label fx:id="title" layoutX="436.0" layoutY="14.0" text="Choose Map" />
+      <Label fx:id="errorLabel" alignment="CENTER" layoutX="726.0" layoutY="571.0" prefHeight="21.0" prefWidth="273.0" />
+      <Button fx:id="saveMapButton" layoutX="785.0" layoutY="419.0" mnemonicParsing="false" onMouseClicked="#saveMapClicked" prefHeight="55.0" prefWidth="192.0" styleClass="mapButton" text="Save map" />
+   </children>
+
+</AnchorPane>

@@ -1,0 +1,18 @@
+.root {
+    -fx-background-image: url(../images/register.PNG);
+    -fx-background-size: contain;
+}
+
+Label {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 25px;
+    -fx-text-fill: white;
+}
+
+Button {
+    -fx-border-color: black;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 20px;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+}
